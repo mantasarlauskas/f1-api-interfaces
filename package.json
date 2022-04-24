@@ -1,0 +1,23 @@
+{
+  "name": "f1-api-interfaces",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./dist/index",
+  "types": "./dist/index",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantasarlauskas/f1-api-interfaces.git"
+  },
+  "author": "Mantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mantasarlauskas/f1-api-interfaces/issues"
+  },
+  "homepage": "https://github.com/mantasarlauskas/f1-api-interfaces#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
