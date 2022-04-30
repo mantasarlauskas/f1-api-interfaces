@@ -13,3 +13,7 @@ export * from './timing';
 export * from './lap';
 export * from './pit-stop';
 export * from './race-laps';
+export * from './result';
+export * from './time';
+export * from './average-speed';
+export * from './fastest-lap';

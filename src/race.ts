@@ -1,4 +1,5 @@
 import { Circuit } from './circuit';
+import { Result } from './result';
 
 export interface Race {
     season: string;
@@ -8,4 +9,5 @@ export interface Race {
     date: string;
     time: string;
     Circuit: Circuit;
+    Results: Result[];
 }
