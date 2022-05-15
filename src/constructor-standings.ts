@@ -1,6 +1,5 @@
-import { Standings } from './standings';
-import { Constructor } from './constructor';
+import { ConstructorStandingsRow } from './constructor-standings-row';
 
-export interface ConstructorStandings extends Standings {
-    Constructor: Constructor;
+export interface ConstructorStandings {
+    ConstructorStandings: ConstructorStandingsRow[];
 }

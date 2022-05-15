@@ -3,7 +3,7 @@ import { Driver } from './driver';
 import { Time } from './time';
 import { FastestLap } from './fastest-lap';
 
-export interface Result {
+export interface RaceResultsRow {
     number?: string;
     position: string;
     positionText: string;
