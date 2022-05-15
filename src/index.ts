@@ -7,6 +7,7 @@ export * from './race-results';
 export * from './race-results-row';
 export * from './season';
 export * from './standings-info';
+export * from './standings-list';
 export * from './constructor-standings';
 export * from './constructor-standings-row';
 export * from './driver-standings';
